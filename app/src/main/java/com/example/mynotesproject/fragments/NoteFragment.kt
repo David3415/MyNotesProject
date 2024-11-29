@@ -17,11 +17,10 @@ import com.example.mynotesproject.db.MainViewModel
 import com.example.mynotesproject.db.NoteAdapter
 import com.example.mynotesproject.entities.NoteItem
 
-///список покупок из одного списка
+
 class NoteFragment : BaseFragment(), Listener {
     private lateinit var binding: FragmentNoteBinding
     private lateinit var editLauncher: ActivityResultLauncher<Intent>
-    private lateinit var aboutLauncher: ActivityResultLauncher<Intent>
     private lateinit var adapter: NoteAdapter
 
     override fun onClickNew() {

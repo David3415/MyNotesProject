@@ -25,7 +25,7 @@ abstract class MainDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(//// Параметры функции:
                     context.applicationContext,     ///контекст всего приложения
                     MainDatabase::class.java,       ///Имя текущего класса
-                    "shopping_list.db"          ////ибя БД
+                    "my_notes.db"          ////имя БД
                 ).build()
                 instance//// возвращаем созданную  instance
             }
