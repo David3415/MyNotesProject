@@ -40,6 +40,11 @@ android {
 }
 
 dependencies {
+    implementation(libs.retrofit.android)
+    implementation(libs.retrofit.android.converter)
+    implementation(libs.retrofit)
+    implementation ("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.7.2")
     val room_version = "2.6.1"
     implementation("androidx.room:room-ktx:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
