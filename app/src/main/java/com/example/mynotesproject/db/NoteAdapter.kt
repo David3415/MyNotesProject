@@ -1,4 +1,4 @@
-package com.example.shoppinglist2.db
+package com.example.mynotesproject.db
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,10 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.shoppinglist2.R
-import com.example.shoppinglist2.databinding.NoteListItemBinding
-import com.example.shoppinglist2.entities.NoteItem
-import com.example.shoppinglist2.fragments.Listener
+import com.example.mynotesproject.R
+import com.example.mynotesproject.databinding.NoteListItemBinding
+import com.example.mynotesproject.entities.NoteItem
+import com.example.mynotesproject.fragments.Listener
 
 class NoteAdapter(private val listener: Listener) :
     ListAdapter<NoteItem, NoteAdapter.ItemHolder>(ItemComparator()) {

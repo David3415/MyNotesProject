@@ -1,4 +1,4 @@
-package com.example.shoppinglist2.fragments
+package com.example.mynotesproject.fragments
 
 import android.app.Activity
 import android.content.Intent
@@ -10,13 +10,12 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.shoppinglist2.activities.AboutActivity
-import com.example.shoppinglist2.activities.MainApp
-import com.example.shoppinglist2.activities.NewNoteActivity
-import com.example.shoppinglist2.databinding.FragmentNoteBinding
-import com.example.shoppinglist2.db.MainViewModel
-import com.example.shoppinglist2.db.NoteAdapter
-import com.example.shoppinglist2.entities.NoteItem
+import com.example.mynotesproject.activities.MainApp
+import com.example.mynotesproject.activities.NewNoteActivity
+import com.example.mynotesproject.databinding.FragmentNoteBinding
+import com.example.mynotesproject.db.MainViewModel
+import com.example.mynotesproject.db.NoteAdapter
+import com.example.mynotesproject.entities.NoteItem
 
 ///список покупок из одного списка
 class NoteFragment : BaseFragment(), Listener {

@@ -1,7 +1,7 @@
-package com.example.shoppinglist2.fragments
+package com.example.mynotesproject.fragments
 
 import androidx.appcompat.app.AppCompatActivity
-import com.example.shoppinglist2.R
+import com.example.mynotesproject.R
 
 object FragmentManager {
     var currentFrag: BaseFragment? = null

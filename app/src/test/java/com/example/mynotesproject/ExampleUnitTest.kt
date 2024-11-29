@@ -1,4 +1,4 @@
-package com.example.shoppinglist2
+package com.example.mynotesproject
 
 import org.junit.Test
 

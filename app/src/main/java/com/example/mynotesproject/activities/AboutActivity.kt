@@ -1,8 +1,8 @@
-package com.example.shoppinglist2.activities
+package com.example.mynotesproject.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.shoppinglist2.databinding.ActivityAboutBinding
+import com.example.mynotesproject.databinding.ActivityAboutBinding
 
 
 class AboutActivity : AppCompatActivity() {

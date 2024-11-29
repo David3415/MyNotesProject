@@ -1,4 +1,4 @@
-package com.example.shoppinglist2.db
+package com.example.mynotesproject.db
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.shoppinglist2.entities.NoteItem
+import com.example.mynotesproject.entities.NoteItem
 import kotlinx.coroutines.launch
 import java.lang.IllegalArgumentException
 

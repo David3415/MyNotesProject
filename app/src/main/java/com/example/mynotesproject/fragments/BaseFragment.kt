@@ -1,4 +1,4 @@
-package com.example.shoppinglist2.fragments
+package com.example.mynotesproject.fragments
 
 import androidx.fragment.app.Fragment
 

@@ -1,11 +1,10 @@
-package com.example.shoppinglist2.db
+package com.example.mynotesproject.db
 
 import androidx.room.Dao
-import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.example.shoppinglist2.entities.NoteItem
+import com.example.mynotesproject.entities.NoteItem
 import kotlinx.coroutines.flow.Flow
 
 @Dao

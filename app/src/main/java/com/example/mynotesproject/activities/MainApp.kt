@@ -1,8 +1,8 @@
-package com.example.shoppinglist2.activities
+package com.example.mynotesproject.activities
 
 import android.app.Application
 
-import com.example.shoppinglist2.db.MainDatabase
+import com.example.mynotesproject.db.MainDatabase
 
 class MainApp:Application() {
     val database by lazy { MainDatabase.getDataBase(this) }

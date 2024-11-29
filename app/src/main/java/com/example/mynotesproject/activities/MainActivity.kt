@@ -1,4 +1,4 @@
-package com.example.shoppinglist2.activities
+package com.example.mynotesproject.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,10 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.shoppinglist2.R
-import com.example.shoppinglist2.databinding.ActivityMainBinding
-import com.example.shoppinglist2.fragments.FragmentManager
-import com.example.shoppinglist2.fragments.NoteFragment
+import com.example.mynotesproject.R
+import com.example.mynotesproject.databinding.ActivityMainBinding
+import com.example.mynotesproject.fragments.FragmentManager
+import com.example.mynotesproject.fragments.NoteFragment
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

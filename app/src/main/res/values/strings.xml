@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">ShoppingList</string>
+    <string name="app_name">MyNotesProject</string>
     <string name="settings">Settings</string>
-    <string name="notes">Notesoo00adsdcs</string>
+    <string name="notes">Notes</string>
     <string name="shop_list">Shoplist</string>
     <string name="new_item">New</string>
     <!-- TODO: Remove or change this placeholder text -->

@@ -1,11 +1,11 @@
-package com.example.shoppinglist2.db
+package com.example.mynotesproject.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-import com.example.shoppinglist2.entities.NoteItem
+import com.example.mynotesproject.entities.NoteItem
 
 @Database(
     entities = [ NoteItem::class],

@@ -1,4 +1,4 @@
-package com.example.shoppinglist2.entities
+package com.example.mynotesproject.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
