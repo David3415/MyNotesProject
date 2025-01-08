@@ -7,7 +7,11 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import com.example.mynotesproject.entities.NoteItem
+import com.example.mynotesproject.retrofit.User
+import com.example.mynotesproject.retrofit.UserFactory
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.lang.IllegalArgumentException
 
 class MainViewModel(database: MainDatabase) : ViewModel() {
@@ -16,6 +20,20 @@ class MainViewModel(database: MainDatabase) : ViewModel() {
     fun insertNote(note: NoteItem) = viewModelScope.launch {
         dao.insertNote(note)
     }
+
+    private val _notes = MutableLiveData<List<User>>()
+    val notes: LiveData<List<User>> = _notes
+    val apiservice = UserFactory.userApi
+
+
+   fun getAllNotes() {
+       viewModelScope.launch {
+           val notes = withContext(Dispatchers.IO) {
+               apiservice.getAllUsers()
+           }
+           _notes.value = notes
+       }
+   }
 
     fun deleteNote(id: Int) = viewModelScope.launch {
         dao.deleteNote(id)

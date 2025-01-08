@@ -54,6 +54,7 @@ class NoteFragment : BaseFragment(), Listener {
         super.onViewCreated(view, savedInstanceState)
         initRcView()
         observer()
+        mainViewModel.getAllNotes()
     }
 
     private fun initRcView() = with(binding) {

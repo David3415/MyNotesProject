@@ -40,6 +40,7 @@ android {
 }
 
 dependencies {
+
     implementation(libs.retrofit.android)
     implementation(libs.retrofit.android.converter)
     implementation(libs.retrofit)
